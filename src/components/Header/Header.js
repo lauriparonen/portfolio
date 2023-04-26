@@ -1,10 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Header.css'
 
+import Carousel from 'react-bootstrap/Carousel';
+
 function Header() {
   return (
     <div className="header">
-      <h1>React App</h1>
+      <h1>Portfolio</h1>
     </div>
   )
 }
