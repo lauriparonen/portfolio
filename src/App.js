@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* Add the rest of your components here */}
     </div>
   );
 }

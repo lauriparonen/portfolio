@@ -37,7 +37,6 @@ import image32 from './images/image32.png'
 import image33 from './images/image33.png'
 
 // Function for shuffling an array; used to randomize the order of the images
-// courtesy of chatGPT
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
