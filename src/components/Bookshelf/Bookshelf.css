@@ -12,3 +12,9 @@
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+
+.bookshelf-list-item-title a {
+  color: inherit; 
+  text-decoration: underline;
+  
+}
