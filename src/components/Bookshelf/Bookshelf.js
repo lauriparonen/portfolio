@@ -11,7 +11,8 @@ function Bookshelf() {
       <h1 className="page-title">bookshelf</h1>
       <div className="bookshelf">
         <p className="bookshelf-desc">
-          I love to read. Here are some of my favorite books.
+          I love to read. Here are some of my favorite books,
+          as well as some thoughts about them.
         </p>
         <div className="bookshelf-list">
           <div className="bookshelf-list-item">
@@ -40,6 +41,7 @@ function Bookshelf() {
               draw novel forms from everyone who encounters it.<br />
             </p>
           </div>
+
           <div className="bookshelf-list-item">
             <h3 className="bookshelf-list-item-title">
               <a 
@@ -68,7 +70,65 @@ function Bookshelf() {
               Heraclitus' 60th fragment, "The way up and the way down is one and the same."  <br /><br />
             </p>
           </div>
+
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://www.ichingonline.net/"
+              target="_blank">
+                I Ching 
+                </a></h3>
+            <p className="bookshelf-list-item-author">Unknown author</p>
+            <p className="bookshelf-list-item-desc">
+              This is one of the more esoteric books on this list.
+              It's not so much a book as it is a divination tool, though it
+              is also well worth reading for its own sake. It is also known as the Book of Changes,
+              indeed change is the most central theme of this book. <br /><br />
+              The logic of the I Ching is broadly as follows. You choose a question
+              about your present circumstances, and then using some method of randomization,
+              you generate a hexagram (consisting of six lines, each of which can be either 
+              broken (yin) or unbroken (yang)). You then look up the hexagram in the book,
+              and read the corresponding text. In the text you will find 
+              a broad, very vague description of something, which you
+              then project an interpretation into about the question
+              you asked. It is thus a tool for exercising, in a 
+              certain sense externalizing one's intuition.<br /><br />
+              The link above in the title takes you to a website where you 
+              can cast virtual coins to generate a hexagram if you want to try it out. 
+            </p>
+            </div>
           </div>
+
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://www.amazon.com/Incerto-Deluxe-Randomness-Procrustes-Antifragile/dp/198481981X"
+              target="_blank">
+                Incerto
+                </a></h3>
+            <p className="bookshelf-list-item-author">Nassim Nicholas Taleb</p>
+            <p className="bookshelf-list-item-desc">
+              This is a collection of five books on the nature of randomness and uncertainty: <i>Fooled by Randomness</i>, <i>The Black Swan</i>, <i>The Bed of Procrustes</i>, <i>Antifragile</i> and <i>Skin in the Game</i>. <br></br>
+              They are all worth reading; Taleb is a very entertaining writer, 
+              and he does not fear to state his observations strongly (I find him 
+              much more palatable when I only pay attention to his written work, 
+              as opposed to his Twitter account). <br /><br /> 
+
+            </p>
+            </div>
+
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://www.goodreads.com/book/show/24113.G_del_Escher_Bach"
+              target="_blank">
+                Gödel, Escher, Bach: An Eternal Golden Braid
+                </a></h3>
+            <p className="bookshelf-list-item-author">Douglas Hofstadter</p>
+            <p className="bookshelf-list-item-desc">
+              This is an extraordinary book about the phenomenon of self-reference,
+              something which seems to be an unescapable feature of reality as 
+              well as consciousness of it. Though it is a long and at times very challenging
+              read, it is also very entertaining and delightful.
+            </p>
+            </div>
         </div>
       </div>
   );
