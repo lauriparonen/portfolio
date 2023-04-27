@@ -17,8 +17,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 30%;
-  background: linear-gradient(to bottom, transparent, #ffffff);
+  height: 90%;
+  background: linear-gradient(to bottom, transparent, #380404);
   z-index: 1;
 }
 
