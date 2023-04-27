@@ -1,46 +1,67 @@
 import React from 'react';
+import './Music.css';
 
 function Music() {
   return (
     <div className="music-container">
-      <h2>music</h2>
-      <p>
+      <h2 className='music-title'>music</h2>
+      <p className='music-desc'>
         i've been making sounds on my computer for some seven years now.
         <br />
-        here you can find what i have posted on soundcloud and spotify.
+        here you can find what i have posted on soundcloud and spotify, <br />
+        as well as some playlists I've curated.
         <br />
-        i am open to collaborations, so if you like what you hear,
+        i might be open to collaborations, so if you like what you hear,
         feel free to contact me. 
-        <br />
+        <br /> <br />
         enjoy!
       </p>
-      <iframe
+      <p className='music-link-desc'>
+        here's a playlist of my music on SoundCloud: <br />
+      </p>
+      <iframe className='music-playlist'
         title="soundCloud"
-        width="100%"
         height="300"
+        width="40%"
         scrolling="no"
         frameborder="no"
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/lamiatunes&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
       ></iframe>
-      <iframe
+      <p className='music-link-desc'>
+        and here's my music on Spotify: <br />
+      </p>
+      <iframe className='music-playlist'
         title="spotify"
         src="https://open.spotify.com/embed/artist/6b1HmB9aQHT0nEXpB02pEm?utm_source=generator&theme=0"
-        width="100%"
         height="300"
+        width="40%"
         frameborder="0"
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
-      <p> 
+      <p className='music-link-desc'> 
         here's a playlist of ambient music I really like: <br />
       </p>
-      <iframe
+      <iframe className='music-playlist'
         title="ambient"
         src="https://open.spotify.com/embed/playlist/6aweRyoJSHdoXZwU38v1Vs?utm_source=generator"
-        width="100%"
         height="300"
+        width="40%"
         frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      ></iframe>
+      <p className='music-link-desc'>
+        I adore deep, atmospheric techno too.
+        here are some tracks I enjoy: <br />
+      </p>
+      <iframe className='music-playlist'
+        title="deep techno"
+        src="https://open.spotify.com/embed/playlist/2TCqzNDLdvIU9uIaFeID56?utm_source=generator"
+        frameborder="0"
+        width="40%"
+        height="300"
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>

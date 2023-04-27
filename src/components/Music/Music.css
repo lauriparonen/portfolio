@@ -20,3 +20,24 @@
 .link:hover {
   color: #a05858;
 }
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+  text-align: center;
+}
+
+.music-container h2 {
+  margin-top: 2rem;
+}
+
+.music-container p {
+  margin: 1rem;
+}
+
+.music-container music-playlist {
+  margin: 0 auto;
+  max-width: 500px;
+}
