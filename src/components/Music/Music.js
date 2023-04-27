@@ -6,12 +6,12 @@ function Music() {
     <div className="music-container">
       <h2 className='music-title'>music</h2>
       <p className='music-desc'>
-        i've been making sounds on my computer for some seven years now.
+        I've been making sounds on my computer for some seven years now.
         <br />
-        here you can find what i have posted on soundcloud and spotify, <br />
+        here you can find what I have posted on soundcloud and spotify, 
         as well as some playlists I've curated.
         <br />
-        i might be open to collaborations, so if you like what you hear,
+        I might be open to collaborations, so if you like what you hear,
         feel free to contact me. 
         <br /> <br />
         enjoy!
@@ -24,7 +24,7 @@ function Music() {
         height="300"
         width="40%"
         scrolling="no"
-        frameborder="no"
+        frameborder="0"
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/lamiatunes&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
       ></iframe>

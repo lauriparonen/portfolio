@@ -1,0 +1,14 @@
+.bookshelf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+  text-align: center;
+}
+
+.bookshelf-list-item-desc {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}

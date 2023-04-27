@@ -4,3 +4,19 @@ body {
   font-size: 1.2rem;
   color: #ddb1b1;
 }
+
+.menu-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #333;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  z-index: 10; 
+}
