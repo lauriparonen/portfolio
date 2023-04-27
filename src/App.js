@@ -10,6 +10,7 @@ import Bookshelf from './components/Bookshelf/Bookshelf';
 
 
 import './App.css';
+import Metaphysics from './components/Metaphysics/Metaphysics';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Projects />} />
           <Route path="/music" element={<Music />} />
-          <Route path="/metaphysics" element={<Projects />} />
+          <Route path="/metaphysics" element={<Metaphysics />} />
           <Route path="/bookshelf" element={<Bookshelf />} />
           <Route path="/about" element={<Projects />} />
           <Route path="/contact" element={<Projects />} />

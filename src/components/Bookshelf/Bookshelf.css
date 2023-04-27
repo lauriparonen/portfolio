@@ -18,3 +18,7 @@
   text-decoration: underline;
   
 }
+
+.bookshelf-list-item-title a:hover {
+  color: #a05858;
+}

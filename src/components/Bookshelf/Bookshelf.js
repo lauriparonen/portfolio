@@ -11,7 +11,7 @@ function Bookshelf() {
       <h1 className="page-title">bookshelf</h1>
       <div className="bookshelf">
         <p className="bookshelf-desc">
-          I love to read. Here are some of my favorite books,
+          I love to read. Here are some of my favorite written works,
           as well as some thoughts about them.
         </p>
         <div className="bookshelf-list">
@@ -111,6 +111,10 @@ function Bookshelf() {
               and he does not fear to state his observations strongly (I find him 
               much more palatable when I only pay attention to his written work, 
               as opposed to his Twitter account). <br /><br /> 
+              A particular favorite of mine is the collection of aphorisms that is 
+              <i> The Bed of Procrustes</i>. Aphoristic writing requires an ability
+              to condense a lot of meaning into a few words; it is a great way to practice
+              not only the art of writing but also that of thinking.
 
             </p>
             </div>
@@ -127,6 +131,46 @@ function Bookshelf() {
               something which seems to be an unescapable feature of reality as 
               well as consciousness of it. Though it is a long and at times very challenging
               read, it is also very entertaining and delightful.
+            </p>
+            </div>
+
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://breedlove22.medium.com/the-number-zero-and-bitcoin-4c193336db5b2"
+              target="_blank">
+                The Number Zero and Bitcoin
+                </a></h3>
+            <p className="bookshelf-list-item-author">Robert Breedlove</p>
+            <p className="bookshelf-list-item-desc">
+              This is an essay by Robert Breedlove, a Bitcoin philosopher and
+              entrepreneur. What makes it great is that even if you couldn't
+              care less about Bitcoin (though he makes very compelling cases for it),
+              it is an extremely insightful essay about the concept of emptiness.
+              <br /><br />
+              Emptiness is something I find extraordinarily essential to contemplate,
+              and it is a shame that in the Western intellectual canon it has been
+              completely misunderstood. It is a peculiar expression of our intellectual
+              domain-dependence (in the West) that we could without much problems apprehend the concept
+              of zero in mathematics; but in our philosophy we have been blind to the 
+              very same metaphysical thing. Though it should be said that the concept
+              of zero originated in India, in the very same intellectual tradition
+              which birthed Buddhism as well as its conception of <i>sunyata</i> (emptiness);
+               and we only got to it later on through inheriting the 
+              numeral system that the people of India invented. <br /><br />
+            </p>
+            </div>
+
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="" 
+              target="_blank">
+                Zhuangzi
+                </a></h3>
+            <p className="bookshelf-list-item-author">Zhuangzi</p>
+            <p className="bookshelf-list-item-desc">
+              Another book from the Chinese intellectual tradition of Taoism.
+              Just as the Tao Te Ching, so does this book always seem to bring 
+              forth something new each time I read it. 
             </p>
             </div>
         </div>
