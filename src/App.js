@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Bookshelf from './components/Bookshelf/Bookshelf';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
 
 
 import './App.css';
@@ -21,12 +23,12 @@ function App() {
         <Header />
         <Navigation />
         <Routes>
-          <Route path="/" element={<Projects />} />
+          <Route path="/" element={<Home />} />
           <Route path="/music" element={<Music />} />
           <Route path="/metaphysics" element={<Metaphysics />} />
           <Route path="/bookshelf" element={<Bookshelf />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
