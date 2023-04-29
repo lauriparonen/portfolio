@@ -33,7 +33,7 @@ function About () {
             >here</a>.
             <br /><br />
             Sometimes I write some code. You can find it <a className="list"
-            href="github.com/lauriparonen"
+            href="https://github.com/lauriparonen"
             target="_blank"
             style={{color: "inherit"}}
             >here</a>,
