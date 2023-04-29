@@ -1,0 +1,19 @@
+.laurel-carousel {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+
+  margin-top: 1rem;
+  /* make it into a circle */
+  border-radius: 50%;
+}
+ 
+.laurel-carousel img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+  /* border: 3px solid rgb(199, 179, 179); */
+}
+

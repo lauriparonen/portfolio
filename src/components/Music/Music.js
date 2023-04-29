@@ -21,7 +21,7 @@ function Music() {
       </p>
       <iframe className='music-playlist'
         title="soundCloud"
-        height="300"
+        height="352"
         width="40%"
         scrolling="no"
         frameborder="0"
@@ -34,7 +34,7 @@ function Music() {
       <iframe className='music-playlist'
         title="spotify"
         src="https://open.spotify.com/embed/artist/6b1HmB9aQHT0nEXpB02pEm?utm_source=generator&theme=0"
-        height="300"
+        height="352"
         width="40%"
         frameborder="0"
         allowtransparency="true"
@@ -49,15 +49,14 @@ function Music() {
       style={{marginTop: '0rem', marginBottom: '0rem'}}
         title="ambient"
         src="https://open.spotify.com/embed/playlist/6aweRyoJSHdoXZwU38v1Vs?utm_source=generator"
-        height="300"
+        height="352"
         width="40%"
         frameborder="0"
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
       <p className='music-link-desc'>
-        I adore deep, atmospheric techno too.
-        machine shamanism: <br />
+        I adore deep, atmospheric techno too: <br />
       </p>
       <iframe className='music-playlist'
       style={{marginTop: '0rem', marginBottom: '0rem'}}
@@ -65,18 +64,31 @@ function Music() {
         src="https://open.spotify.com/embed/playlist/2TCqzNDLdvIU9uIaFeID56?utm_source=generator"
         frameborder="0"
         width="40%"
-        height="300"
+        height="352"
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
       <p className='music-link-desc'>
         here's some class hip hop:
       </p>
+     
       <iframe 
+      className='music-playlist'
         style={{marginTop: '0rem', marginBottom: '0rem'}}
         src="https://open.spotify.com/embed/playlist/1M9L5kgUjOXfKWZJ7tLqiV?utm_source=generator" 
         width="40%" 
-        height="300" 
+        height="352" 
+        frameBorder="0" 
+        allowfullscreen="" 
+        loading="lazy"></iframe>
+         <p className='music-link-desc'>
+          some metal classics:
+        </p>  
+        <iframe 
+        className='music-playlist'
+        src="https://open.spotify.com/embed/playlist/4VXylsaC5CPJZJC95ETYcj?utm_source=generator" 
+        width="40%" 
+        height="352" 
         frameBorder="0" 
         allowfullscreen="" 
         loading="lazy"></iframe>

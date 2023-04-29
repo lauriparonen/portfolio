@@ -10,6 +10,9 @@ function Navigation() {
       <Link to="/" className="nav-link">
         home
       </Link>
+      <Link to="/about" className="nav-link">
+        about
+      </Link>
       <Link to="/music" className="nav-link">
         music
       </Link>
@@ -18,9 +21,6 @@ function Navigation() {
       </Link>
       <Link to="/bookshelf" className="nav-link">
         bookshelf
-      </Link>
-      <Link to="/about" className="nav-link">
-        about
       </Link>
       <Link to="/contact" className="nav-link">
         contact

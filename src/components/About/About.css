@@ -14,8 +14,15 @@
   transition: border 0.2s ease-in-out;
 }
 
+
 li {
   display: list-item;
-  list-style-type: "✣";
+  list-style-type: "🌿";
   padding-inline-start: 0.9ch;
+  /* change list-style-type to a laurel */
+  /* reduce the size of the style-type */ 
+}
+
+.list:hover {
+  color: #a05858;
 }

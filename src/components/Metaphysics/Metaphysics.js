@@ -39,8 +39,11 @@ function Metaphysics() {
             These words are not written in hopes of convincing anyone of a specific systematic school of thought's superiority to another;
             they are not written as an attempt to communicate something profound, though their form as essays would intuitively 
             make one think otherwise. They are simply my artistry: I relate to them in the same way that a paintbrush relates
-            to the painter holding it. I feel like the ideas expressed therein do not come from "me"; I can read my own
-            writing and feel surprised by it. 
+            to the painter holding it. I write in the same way that a pianist 
+            plays the piano; not to intentionally reach some telos or to communicate something,
+            but because it's a form of play that I enjoy.
+            I feel like the ideas expressed therein do not come from "me"; I can read my own
+            writing and feel surprised by it, and often do. 
             <br /><br />
             I am greatly inspired by the nondual schools of thought; by the traditions
             Alan Watts referred to as "ways of liberation" such as Zen and Mahayana Buddhism, Taoism, and Advaita Vedanta.

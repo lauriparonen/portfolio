@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Lauri from "./Lauri.jpg";
+import laurelwreath from "./laurelwreath.jpg";
 
 function About () {
     return (
@@ -19,7 +20,11 @@ function About () {
             (and the persona it refers to) is just an ephemeral way to decorate the emptiness
             that reality fundamentally is.
             <br /><br />
-            I like cats, art, nature, music, metaphysical contemplation, wandering in a forest with a stick, self-transcendence and seafood.
+            I like cats, art, nature, music, metaphysical contemplation, wandering aimlessly
+            in a forest with a stick, self-transcendence, seafood, matcha, writing, 
+            challenging my presumptions about life, burning incense, sunbathing,
+            all manner of mysticism, as well as the occasional indulgence in the
+            pleasures of the flesh. Creamy Greek yogurt with honey and cacao nibs, for example.
             <br /><br />
             Sometimes I make music. You can find my audial creations and explorations <a className="list"
             href="/music"
@@ -27,7 +32,7 @@ function About () {
             style={{color: "inherit"}}
             >here</a>.
             <br /><br />
-            Sometimes I write out my thoughts in long form. You can find them <a className="list"
+            Sometimes I write out and publish my thoughts in long form. You can find them <a className="list"
             href="/metaphysics"
             target="_blank"
             style={{color: "inherit"}}
@@ -41,7 +46,7 @@ function About () {
             in my GitHub. <br />
             I made this website with React.js. 
             <br />
-            Some of my projects include:
+            Some of my other projects include:
             <br /><br />
             <ul className="projects-list">
                 <li className="projects-list-item">
@@ -50,7 +55,7 @@ function About () {
                     href="https://github.com/lauriparonen/GIndexScraper"
                     target="_blank"
                     style={{color: "inherit"}}
-                    >a Node.js script which scrapes the price of
+                    ><i>GIndexScraper</i>, a Node.js script which scrapes the price of
                     Gambina
                 </a> (a Finnish alcoholic beverage; <a className="list"
                     target="_blank"
@@ -64,15 +69,20 @@ function About () {
                         href="https://github.com/lauriparonen/thinkboi-tweeter-desktop"
                         target="_blank"
                         style={{color: "inherit"}}
-                        >a desktop Twitter interface</a> for sending short one-liner
-                        tweets from your desktop (made with Python and PyQt5)
+                        ><i>thinkboi tweeter</i>, a desktop Twitter interface</a> for sending short one-liner
+                        tweets from your desktop (made with Python and PyQt5).
+                        tweet like <a href="https://twitter.com/naval"
+                                      target="_blank"
+                                      style={{color:"inherit"}}>
+                            Naval Ravikant</a>, without subjecting yourself to the informational cacophony of 
+                        the Twitter feed
                     </li>
                     <li className="projects-list-item">
                     <a className="list"
                         href="https://github.com/lauriparonen/thinkboi-tweeter-react"
                         target="_blank"
                         style={{color: "inherit"}}
-                        >a React.js browser version</a> of the above
+                        >a React.js browser version</a> of the above (wip)
                     </li>
                 </ul>
 
@@ -83,13 +93,25 @@ function About () {
             <br /><br />
             If you want to work with me, send pictures of your cat,
             or chat about the nature of reality,
-            you can find my contact information <a className="list"
+            you can find my contact information & social media links <a className="list"
             href="/contact"
             target="_blank"
             style={{color: "inherit"}}
             >here</a>.
+            <br /><br />
+            The image carousel on the top of this site is a collection
+            of images I have generated with OpenAI's <a className="list"
+            href="https://openai.com/product/dall-e-2"
+            target="_blank"
+            style={{color: "inherit"}}
+            >DALL·E 2</a> (a neural network that generates images from text descriptions).
+            
         </p>
-        
+        <p>
+            📿
+            
+        </p>
+        <br />
         </div>
     );
 }

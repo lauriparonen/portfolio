@@ -162,7 +162,7 @@ function Bookshelf() {
 
           <div className="bookshelf-list-item">
             <h3 className="bookshelf-list-item-title">
-              <a href="" 
+              <a href="https://terebess.hu/english/tao/Zhuangzi-Burton-Watson.pdf" 
               target="_blank">
                 Zhuangzi
                 </a></h3>
@@ -179,7 +179,6 @@ function Bookshelf() {
             </div>
         </div>
 
-        <div className="bookshelf-list">
           <div className="bookshelf-list-item">
             <h3 className="bookshelf-list-item-title">
               < a href="http://www.psychedelic-library.org/alchemy.htm" 
@@ -200,8 +199,36 @@ function Bookshelf() {
 
             </p>
             </div>
+
+        <div className="bookshelf-list">
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://saifedean.com/books"
+              target="_blank">
+                The Bitcoin Standard & The Fiat Standard
+                </a></h3>
+            <p className="bookshelf-list-item-author">Saifedean Ammous</p>
+            <p className="bookshelf-list-item-desc">
+              These are extraordinarily lucid works about the nature, history
+              and societal significance of money; especially what kind of money
+              has which kind of effects on all domains of life in society. <br/><br/> <i>The Bitcoin Standard</i> addresses
+               the history and most central qualities of all currencies,
+               and argues that Bitcoin most fittingly fits all the features
+               of good currency. <i>The Fiat Standard</i> is a book about
+               the financial standard of our time (20th century onward),
+               and offers truly eye-opening insights into the constitution
+               of our contemporary world, and how the kind of money
+               we use affects the way we value the world we live in.
+               <br /><br />
+               Saifedean is very smart because he understands that piracy is 
+               a great marketing tactic for truly excellent products; 
+               I initially read both of these works as pirated epubs on my e-reader,
+               and bought hardcover versions of both.
+            </p>
             </div>
-           </div>
+            </div>
+            </div>
+        
 
   );
 }
