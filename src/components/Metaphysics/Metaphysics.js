@@ -16,13 +16,13 @@ function Metaphysics() {
             the artist's task is to dress into a perceptible form. <br /><br />
             For me, something describable as philosophy seems to be something
             equivalent; particularly questions related to metaphysics; 
-            the most fundamental questions of existence. 
+            the most fundamental questions of existence.
 
             <br /><br />
             With these words in mind, I invite you to explore some of my thoughts
             in longer form:      
         </p>
-        
+
         <iframe
             src="https://foodofthegods.substack.com/embed"
             width="480"

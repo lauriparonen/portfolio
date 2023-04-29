@@ -3,7 +3,19 @@
   height: 300px;
   object-fit: cover;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 50%;   /* turn image into a circle */
   /* border: 3px solid rgb(199, 179, 179); */
+}
+
+.laurel-img:hover {
+  border: 5px solid rgb(199, 179, 179);
+  /* add transition */
+  transition: border 0.2s ease-in-out;
+}
+
+li {
+  display: list-item;
+  list-style-type: "✣";
+  padding-inline-start: 0.9ch;
 }

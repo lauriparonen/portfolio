@@ -30,7 +30,7 @@
 }
 
 .music-container h2 {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .music-container p {
@@ -40,4 +40,18 @@
 .music-container music-playlist {
   margin: 0 auto;
   max-width: 500px;
+}
+
+.music-playlist {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.music-link-desc {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
 }

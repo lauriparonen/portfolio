@@ -8,13 +8,13 @@ function Music() {
       <p className='music-desc'>
         I've been making sounds on my computer for some seven years now.
         <br />
-        here you can find what I have posted on soundcloud and spotify, 
+        Here you can find what I have posted on SoundCloud and Spotify, 
         as well as some playlists I've curated.
         <br />
         I might be open to collaborations, so if you like what you hear,
         feel free to contact me. 
         <br /> <br />
-        enjoy!
+        Enjoy!
       </p>
       <p className='music-link-desc'>
         here's a playlist of my music on SoundCloud: <br />
@@ -40,10 +40,13 @@ function Music() {
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
+      <h4 className='music-title'><i>playlists</i></h4>
       <p className='music-link-desc'> 
-        here's a playlist of ambient music I really like: <br />
+        here's some ambient music I really like.
+        perfect for getting sleepy: <br />
       </p>
       <iframe className='music-playlist'
+      style={{marginTop: '0rem', marginBottom: '0rem'}}
         title="ambient"
         src="https://open.spotify.com/embed/playlist/6aweRyoJSHdoXZwU38v1Vs?utm_source=generator"
         height="300"
@@ -54,9 +57,10 @@ function Music() {
       ></iframe>
       <p className='music-link-desc'>
         I adore deep, atmospheric techno too.
-        here are some tracks I enjoy: <br />
+        machine shamanism: <br />
       </p>
       <iframe className='music-playlist'
+      style={{marginTop: '0rem', marginBottom: '0rem'}}
         title="deep techno"
         src="https://open.spotify.com/embed/playlist/2TCqzNDLdvIU9uIaFeID56?utm_source=generator"
         frameborder="0"
@@ -65,6 +69,17 @@ function Music() {
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
+      <p className='music-link-desc'>
+        here's some class hip hop:
+      </p>
+      <iframe 
+        style={{marginTop: '0rem', marginBottom: '0rem'}}
+        src="https://open.spotify.com/embed/playlist/1M9L5kgUjOXfKWZJ7tLqiV?utm_source=generator" 
+        width="40%" 
+        height="300" 
+        frameBorder="0" 
+        allowfullscreen="" 
+        loading="lazy"></iframe>
     </div>
   );
 }

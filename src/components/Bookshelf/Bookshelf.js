@@ -169,12 +169,40 @@ function Bookshelf() {
             <p className="bookshelf-list-item-author">Zhuangzi</p>
             <p className="bookshelf-list-item-desc">
               Another book from the Chinese intellectual tradition of Taoism.
-              Just as the Tao Te Ching, so does this book always seem to bring 
-              forth something new each time I read it. 
+              Just as the Tao Te Ching, this book always seem to bring 
+              forth something new each time I read it. It's quite as if
+              one can never actually fully read it. <br /><br />
+              Zhuangzi uses humor and goes to great lengths to be 
+              unconventional in his writing, and this is a very refreshing
+              quality in any philosophical work.
             </p>
             </div>
         </div>
-      </div>
+
+        <div className="bookshelf-list">
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              < a href="http://www.psychedelic-library.org/alchemy.htm" 
+              target="_blank">
+                The New Alchemy
+                </a></h3>
+            <p className="bookshelf-list-item-author">Alan Watts</p>
+            <p className="bookshelf-list-item-desc">
+              This is an essay by Alan Watts, a British-American philosopher
+              of the psychology of religion. It is a prosaic reflection on LSD,
+              and the metaphysical significance of the psychedelic experience in general.
+              <br /><br />
+              <i style={{fontSize: 15}}>"But just as the work of transforming lead into gold was in many 
+                cases a chemical symbolism for a spiritual transformation of man 
+                himself, so the immortality to be conferred by the elixir was not 
+                always the literally everlasting life but rather the transportation 
+                of consciousness into a state beyond time."</i>
+
+            </p>
+            </div>
+            </div>
+           </div>
+
   );
 }
 
