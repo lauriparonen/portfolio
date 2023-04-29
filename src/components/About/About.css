@@ -1,0 +1,9 @@
+.laurel-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 50%;   /* turn image into a circle */
+  /* border: 3px solid rgb(199, 179, 179); */
+}

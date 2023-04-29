@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Bookshelf from './components/Bookshelf/Bookshelf';
+import About from './components/About/About';
 
 
 import './App.css';
@@ -24,7 +25,7 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/metaphysics" element={<Metaphysics />} />
           <Route path="/bookshelf" element={<Bookshelf />} />
-          <Route path="/about" element={<Projects />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Projects />} />
         </Routes>
       </div>
