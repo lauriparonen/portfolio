@@ -1,5 +1,6 @@
 import './Home.css';
 import Carousel from 'react-bootstrap/Carousel';
+import Navigation from '../Navigation/Navigation';
 
 import laurel1 from './dallelaurels/laurel1.png';
 import laurel2 from './dallelaurels/laurel2.png';
@@ -42,16 +43,15 @@ function laurelCarousel () {
 
 }
 
-function Home () {
+function Home() {
   return (
     <div className='home-container'>
       <h1 className="bookshelf-container">lauri paronen</h1>
       <div className="laurel-container">
         {laurelCarousel()}
       </div>
+      <Navigation showHomeLink={true} />
     </div>
-    
-
   )
 }
 

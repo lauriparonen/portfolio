@@ -152,7 +152,7 @@ function Bookshelf() {
               completely misunderstood. It is a peculiar expression of our intellectual
               domain-dependence (in the West) that we could without much problems apprehend the concept
               of zero in mathematics; but in our philosophy we have been blind to the 
-              very same metaphysical thing. Though it should be said that the concept
+              very same concept in metaphysics. Though it should be said that the concept
               of zero originated in India, in the very same intellectual tradition
               which birthed Buddhism as well as its conception of <i>sunyata</i> (emptiness);
                and we only got to it later on through inheriting the 
@@ -171,7 +171,20 @@ function Bookshelf() {
               Another book from the Chinese intellectual tradition of Taoism.
               Just as the Tao Te Ching, this book always seem to bring 
               forth something new each time I read it. It's quite as if
-              one can never actually fully read it. <br /><br />
+              one can never actually fully read it;
+              it has this peculiar element of inexhaustability, a quality
+              which Laozi notes is pertinent to the Tao itself in  <a 
+              href="https://www.wussu.com/laotzu/laotzu35.html" 
+              style={{color: "inherit"}}
+              target="_blank"
+              >the 35th chapter of the Tao Te Ching:</a><br /><br />
+              <i style={{fontSize: 15}}>
+              Passers by may stop for music and good food, <br/>
+              But a description of the Tao seems without substance or flavor.<br/>
+              It cannot be seen, it cannot be heard,<br/>
+              And yet it cannot be exhausted.
+              </i>
+              <br /><br />
               Zhuangzi uses humor and goes to great lengths to be 
               unconventional in his writing, and this is a very refreshing
               quality in any philosophical work.
@@ -227,9 +240,28 @@ function Bookshelf() {
             </p>
             </div>
             </div>
-            </div>
-        
 
+        <div className="bookshelf-list">
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href=""
+              target="_blank">
+                The Wisdom of Insecurity: A Message for an Age of Anxiety
+                </a></h3>
+            <p className="bookshelf-list-item-author">Alan Watts</p>
+            <p className="bookshelf-list-item-desc">
+              This is one of my favorite works from Alan Watts.
+              It is an attempt to articulate his understanding of 
+              the intrinsic forms of Eastern religion and metaphysics
+              in a language that doesn't require the reader to be
+              versed in them. <br /><br />
+              Particularly the subtitle of this work 
+              makes its message 
+              </p> 
+              </div>
+              </div>
+              </div>
+            
   );
 }
 

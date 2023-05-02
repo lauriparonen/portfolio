@@ -44,7 +44,12 @@ function About () {
             style={{color: "inherit"}}
             >here</a>,
             in my GitHub. <br />
-            I made this website with React.js. 
+            <a href="https://github.com/lauriparonen/portfolio"
+            target="_blank"
+            style={{color: "inherit"}}>
+            I made this website with React.js
+            </a>.
+            
             <br />
             Some of my other projects include:
             <br /><br />
@@ -105,6 +110,10 @@ function About () {
             target="_blank"
             style={{color: "inherit"}}
             >DALL·E 2</a> (a neural network that generates images from text descriptions).
+            The <a href="/gallery" className="list" style={{color: "inherit"}}>gallery</a>-section
+            shows some more images I've generated with this tool. It's a marvelously fun
+            way to bring the contents of one's imagination into manifest reality.
+
             
         </p>
         <p>

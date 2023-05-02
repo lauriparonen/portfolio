@@ -7,6 +7,17 @@
   position: relative;
 }
 
+.navigation-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: none;
+  position: relative; 
+
+
+}
+
 .nav-links {
   display: flex;
   justify-content: center;
