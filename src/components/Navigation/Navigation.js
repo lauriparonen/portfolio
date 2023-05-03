@@ -69,6 +69,16 @@ function NavigationNoHome(props) {
   );
 }
 function Navigation(props) {
+
+  return (
+    <div className="navigation-container">
+      <h1 className="header"></h1>
+      <NavigationNoHome />
+    </div>
+  );
+}
+
+  /*
   const location = useLocation();
 
   // Render the header in the middle of the view for the home page
@@ -80,7 +90,7 @@ function Navigation(props) {
       </div>
     );
   }
-
+/*
   // Render the header and navigation bar beneath it for all other pages
   return (
     <div className="navigation-container">
@@ -89,5 +99,6 @@ function Navigation(props) {
     </div>
   );
 }
+*/
 
 export default Navigation;

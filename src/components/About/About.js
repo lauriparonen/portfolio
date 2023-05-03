@@ -62,11 +62,11 @@ function About () {
                     style={{color: "inherit"}}
                     ><i>GIndexScraper</i>, a Node.js script which scrapes the price of
                     Gambina
-                </a> (a Finnish alcoholic beverage; <a className="list"
+                </a> (a Finnish alcoholic beverage and an <a className="list"
                     target="_blank"
                     style={{color: "inherit"}}
                     href="https://www.gambina.fi/"> 
-                    an academic elixir</a>; an unholy concoction)
+                    an academic elixir</a>)
                     from the website of the Finnish alcohol monopoly Alko
                     </li>
                     <li className="projects-list-item">

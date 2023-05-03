@@ -3,7 +3,11 @@ import './DalleGallery.css';
 
 function ImageGalleryItem({ imageName }) {
   // extract date and prompt from image name
-  const [_, date, time, prompt] = imageName.match(/DALL·E (\d{4}-\d{2}-\d{2}) (\d{2}\.\d{2}\.\d{2}) - (.+)/);
+  const [_, date, time, prompt] = imageName.match
+  (/DALL·E (\d{4}-\d{2}-\d{2}) (\d{2}\.\d{2}\.\d{2}) - (.+)/);
+  console.log("date:", date);
+  console.log("time:", time);
+  console.log("prompt:", prompt);
 
   return (
     <div className="gallery-item">
@@ -16,9 +20,7 @@ function ImageGalleryItem({ imageName }) {
 }
 
 function DalleGallery({ imageNames }) {
-
-  console.log (prompt);
-
+/*
   if (!imageNames || imageNames.length === 0) {
     return <div
     style={{
@@ -31,10 +33,10 @@ function DalleGallery({ imageNames }) {
     }
     >under construction</div>;
   }
-
+*/
   return (
     <div className="gallery-container">
-      {imageNames.map((imageName, index) => (
+      {imageNames && imageNames.map((imageName, index) => (
         <ImageGalleryItem key={index} imageName={imageName} />
       ))}
     </div>

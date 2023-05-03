@@ -50,7 +50,74 @@ function Home() {
       <div className="laurel-container">
         {laurelCarousel()}
       </div>
-      <Navigation showHomeLink={true} />
+      {/* <Navigation showHomeLink={true} /> */}
+      <div className="home-text">
+        <p>
+          <br />
+          I'm a 23-year-old student of computer science currently based in Tampere, Finland.
+          <br />
+          <br />
+          I enjoy all manner of creative pursuits, such as writing, music, art, 
+          philosophy and programming.
+          You can find my creations and other things I enjoy on this website.
+          <br />
+          <br />
+          The <a href="/about"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >about</a>-page contains a more detailed description of me and my interests.
+          <br />
+          <br />
+          The <a href="/music"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >music</a>-page contains links to my music,
+              as well as some of the playlists I've curated with songs I enjoy.
+          <br />
+          <br />
+          The <a href="/metaphysics"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >metaphysics</a>-page contains 
+               a link to my longer-form philosophical reflections.
+          <br />
+          <br />
+          The <a href="/bookshelf"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >bookshelf</a>-page contains a list of books I have
+              enjoyed, as well as some of my thoughts on them. 
+          <br />
+          <br />
+          The <a href="/gallery"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >gallery</a>-page contains a gallery of some of my favorite
+              images I've generated with OpenAI's DALL·E 2. 
+          <br />
+          <br />
+          The <a href="/contact"
+              target={"_blank"}
+              style={{color: "inherit"}}
+              >contact</a>-page contains my contact information.
+          <br />
+          <br />
+          📿🌿🌺🌳🍀🌸🕸️☄️🃏🖼️🔱
+          <br />
+          <br />
+          <p>
+            <i>
+              <a href='https://www.goodreads.com/quotes/9193454-what-fools-call-wasting-time-is-most-often-the-best'
+                target={"_blank"}
+                style={{color: "inherit", fontSize: "1em"}}
+                >
+              what fools call "wasting time" is most often the best investment 
+              </a>
+            </i> 
+          </p>
+          </p>
+      </div>
+
     </div>
   )
 }
