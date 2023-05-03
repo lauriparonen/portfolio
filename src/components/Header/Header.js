@@ -63,9 +63,10 @@ function Header() {
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <img
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             src={image}
             alt={`Slide ${index + 1}`}
+            
           />
         </Carousel.Item >
       ))}
