@@ -12,9 +12,28 @@ function Contact() {
             rel="noopener noreferrer"
             className="contact-link"
             >
-            email (lauriparonen0@gmail.com)
+            email (general)
             </a>
         </p>
+        <p>
+            <a href="mailto: lamiatunes@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+            >
+            email (music)
+            </a>
+        </p>
+        <p>
+            <a href="mailto: foodofthegods9@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+            >
+            email (philosophy)
+            </a>
+        </p>
+
         <p>
             <a href="https://www.linkedin.com/in/ "
             target="_blank"

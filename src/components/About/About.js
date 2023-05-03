@@ -23,8 +23,7 @@ function About () {
             I like cats, art, nature, music, metaphysical contemplation, wandering aimlessly
             in a forest with a stick, self-transcendence, seafood, matcha, writing, 
             challenging my presumptions about life, burning incense, sunbathing,
-            all manner of mysticism, as well as the occasional indulgence in the
-            pleasures of the flesh. Creamy Greek yogurt with honey and cacao nibs, for example.
+            all manner of mysticism, and creamy Greek yogurt with honey and cacao nibs.
             <br /><br />
             Sometimes I make music. You can find my audial creations and explorations <a className="list"
             href="/music"

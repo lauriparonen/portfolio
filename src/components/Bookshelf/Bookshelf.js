@@ -255,8 +255,7 @@ function Bookshelf() {
               the intrinsic forms of Eastern religion and metaphysics
               in a language that doesn't require the reader to be
               versed in them. <br /><br />
-              Particularly the subtitle of this work 
-              makes its message 
+              
               </p> 
               </div>
               </div>

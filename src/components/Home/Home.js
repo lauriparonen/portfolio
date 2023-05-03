@@ -62,41 +62,41 @@ function Home() {
           You can find my creations and other things I enjoy on this website.
           <br />
           <br />
-          The <a href="/about"
+          The <a href="/about" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >about</a>-page contains a more detailed description of me and my interests.
           <br />
           <br />
-          The <a href="/music"
+          The <a href="/music" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >music</a>-page contains links to my music,
               as well as some of the playlists I've curated with songs I enjoy.
           <br />
           <br />
-          The <a href="/metaphysics"
+          The <a href="/metaphysics" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >metaphysics</a>-page contains 
                a link to my longer-form philosophical reflections.
           <br />
           <br />
-          The <a href="/bookshelf"
+          The <a href="/bookshelf" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >bookshelf</a>-page contains a list of books I have
               enjoyed, as well as some of my thoughts on them. 
           <br />
           <br />
-          The <a href="/gallery"
+          The <a href="/gallery" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >gallery</a>-page contains a gallery of some of my favorite
               images I've generated with OpenAI's DALL·E 2. 
           <br />
           <br />
-          The <a href="/contact"
+          The <a href="/contact" className='home-links'
               target={"_blank"}
               style={{color: "inherit"}}
               >contact</a>-page contains my contact information.
@@ -109,6 +109,7 @@ function Home() {
             <i>
               <a href='https://www.goodreads.com/quotes/9193454-what-fools-call-wasting-time-is-most-often-the-best'
                 target={"_blank"}
+                className='home-links'
                 style={{color: "inherit", fontSize: "1em"}}
                 >
               what fools call "wasting time" is most often the best investment 
