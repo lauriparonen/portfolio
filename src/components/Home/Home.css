@@ -2,10 +2,9 @@
   height: 300px;
   width: 300px;
   margin: 0 auto;
-
   margin-top: 1rem;
-  /* make it into a circle */
   border-radius: 50%;
+  
 }
  
 .laurel-carousel img {
@@ -16,6 +15,7 @@
   border-radius: 50%;
   /* border: 3px solid rgb(199, 179, 179); */
 }
+
 
 .home-text {
   justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .home-links:hover {
-  color: #521b1b;
+  color: #742121;
   transition: 0.3s;
 }
 
