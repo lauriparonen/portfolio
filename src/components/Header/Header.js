@@ -59,7 +59,7 @@ shuffleArray(images);
 
 function Header() {
   return (
-    <Carousel defaultInterval={8000}>
+    <Carousel defaultInterval={8000} className="header-carousel">
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <img
