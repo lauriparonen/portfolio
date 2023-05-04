@@ -14,22 +14,28 @@
   padding: 16px;
   background-color: none;
   position: relative; 
-
-
 }
 
 .nav-links {
   display: flex;
+  flex-direction: column; /* set direction to column for mobile view */
   justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 100%; /* position the dropdown below the navbar */
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background-color: #333;
+  display: none;
 }
 
 .nav-link {
-  margin-left: 16px;
-  margin-bottom: 0;
+  margin-left: 0; /* remove margin on mobile */
+  margin-bottom: 16px; /* add margin bottom for spacing */
 }
 
 .nav-link:hover {
@@ -39,34 +45,46 @@
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 16px;
-    background-color: #333;
-    display: none;
-  }
-
-  .nav-links.show {
-    display: flex;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    padding: 0;
+    background-color: none;
+    display: flex !important;
     justify-content: center;
     align-items: center;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-bottom: 16px;
   }
 
   .nav-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    display: none;
   }
-  
-  .nav-toggle:hover {
-    background-color: #555;
-  }
+}
+
+
+.nav-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-toggle:hover {
+  background-color: #555;
+}
+
+.nav-links.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

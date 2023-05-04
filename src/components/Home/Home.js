@@ -25,8 +25,6 @@ const images = [
 shuffleArray(images);
 
 function laurelCarousel () {
-  // todo: import imgs, shuffle, return carousel, use in Home function
-  // 
   return (
     <Carousel className="laurel-carousel" defaultInterval={8000} fade={"0.3s"}>
       {images.map((image, index) => (

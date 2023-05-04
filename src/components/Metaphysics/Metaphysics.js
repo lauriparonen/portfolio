@@ -23,7 +23,7 @@ function Metaphysics() {
             in longer form:      
         </p>
 
-        <iframe
+        <iframe className="substack-embed"
             src="https://foodofthegods.substack.com/embed"
             width="480"
             height="320"

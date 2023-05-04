@@ -6,6 +6,7 @@
   margin-top: 1rem;
   border-radius: 50%;   /* turn image into a circle */
   /* border: 3px solid rgb(199, 179, 179); */
+  aspect-ratio: 1 / 1;
 }
 
 .laurel-img:hover {
@@ -19,8 +20,6 @@ li {
   display: list-item;
   list-style-type: "🌿";
   padding-inline-start: 0.9ch;
-  /* change list-style-type to a laurel */
-  /* reduce the size of the style-type */ 
 }
 
 .list:hover {
