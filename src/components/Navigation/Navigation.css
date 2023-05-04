@@ -16,22 +16,24 @@
   position: relative; 
 }
 
-.nav-links {
+/*
+.nav-link {
   display: flex;
-  flex-direction: column; /* set direction to column for mobile view */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 100%; /* position the dropdown below the navbar */
+  top: 100%; 
   left: 0;
   right: 0;
   padding: 16px;
   background-color: #333;
-  display: none;
+  
 }
+*/
 
 .nav-link {
   margin-left: 0; /* remove margin on mobile */
