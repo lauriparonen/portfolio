@@ -20,20 +20,20 @@ function ImageGalleryItem({ imageName }) {
 }
 
 function DalleGallery({ imageNames }) {
-/*
+
   if (!imageNames || imageNames.length === 0) {
     return <div
     style={{
       display: "flex",
-      justifyContent: "center",
       alignItems: "center",
+      justifyContent: "center",
       height: "100vh",
       fontSize: "2rem",
     }
     }
     >under construction</div>;
   }
-*/
+
   return (
     <div className="gallery-container">
       {imageNames && imageNames.map((imageName, index) => (
