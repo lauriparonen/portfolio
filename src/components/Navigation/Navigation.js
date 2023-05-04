@@ -5,39 +5,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css';
 import { useLocation } from 'react-router-dom';
 
-function NavigationHome(props) {
-  /**
-   * This function renders the navigation bar for the home page,
-   * excluding thus the home link.
-   */
-  return (
-    <div className="navigation-home">
-      <Link to="/about" className="nav-link">
-        about
-      </Link>
-      <Link to="/music" className="nav-link">
-        music
-      </Link>
-      <Link to="/metaphysics" className="nav-link">
-        metaphysics
-      </Link>
-      <Link to="/bookshelf" className="nav-link">
-        bookshelf
-      </Link>
-      <Link to="/gallery" className="nav-link">
-        gallery
-      </Link>
-      <Link to="/contact" className="nav-link">
-        contact
-      </Link>
-    </div>
-  );
-}
-
 function NavigationNoHome(props) {
   /**
-   * This function renders the navigation bar for all pages
-   * except the home page, including thus the home link.
+   * This function renders the navigation bar for all pages.
+   * If the page is not the home page, it renders also a link to the home page.
    */
   const location = useLocation();
   return (
@@ -83,28 +54,5 @@ function Navigation(props) {
     </div>
   );
 }
-
-  /*
-  const location = useLocation();
-
-  // Render the header in the middle of the view for the home page
-  if (location.pathname === "/") {
-    return (
-      <div className="navigation-container">
-        <h1 className="header"></h1>
-        <NavigationHome />
-      </div>
-    );
-  }
-/*
-  // Render the header and navigation bar beneath it for all other pages
-  return (
-    <div className="navigation-container">
-      <h1 className="header"></h1>
-      <NavigationNoHome />
-    </div>
-  );
-}
-*/
 
 export default Navigation;
