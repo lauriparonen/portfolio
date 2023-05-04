@@ -26,6 +26,7 @@ shuffleArray(images);
 
 function laurelCarousel () {
   return (
+    <div className="laurel-container">
     <Carousel className="laurel-carousel" defaultInterval={8000} fade={"0.3s"}>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
@@ -37,6 +38,29 @@ function laurelCarousel () {
         </Carousel.Item >
       ))}
     </Carousel>
+    <div className="laurel-text"
+      style={{
+        position: "relative",
+        left: "0",
+        maxWidth: "100%",
+        height: "100%",
+        textAlign: "center",
+        fontSize: "0.8em",
+        fontStyle: "italic",
+      }}
+    >
+      <p>
+        <br />
+        "oil painting of a laurel wreath against a background of the sky", DALL·E 2 
+        <br />
+        the laurel wreath is a symbol of victory and honor
+        <br />
+        <br />
+        🌿
+        </p>
+    </div>
+    </div>
+    
   )
 
 }
@@ -88,7 +112,7 @@ function Home() {
               >contact</a>-page contains my contact information.
           <br />
           <br />
-          📿🌿🌺🌳🍀🌸🕸️☄️🃏🖼️🔱
+          📿🌺🌳🍀🌸🕸️☄️🃏🖼️🔱
           <br />
           <br />
           <p>
