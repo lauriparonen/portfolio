@@ -11,8 +11,6 @@
   max-width: 500px;
   margin: 0 auto;
   margin-bottom: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 
 }
 
@@ -25,4 +23,5 @@
 
 .bookshelf-list-item-title a:hover {
   color: #a05858;
+  transition: 0.3s;
 }
