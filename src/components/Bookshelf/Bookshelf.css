@@ -25,3 +25,18 @@
   color: #a05858;
   transition: 0.3s;
 }
+
+/* If the page is viewed from a mobile device,
+    add margins to the paragraphs to prevent their
+    content from touching the edges of the screen */
+@media only screen and (max-width: 600px) {
+  .bookshelf-list-item-desc {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .bookshelf-list-item-title {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
