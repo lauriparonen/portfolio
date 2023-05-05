@@ -29,19 +29,19 @@ return (
           The text description used to generate the images is displayed
           when you hover over the image; or on mobile, when you tap the image.
           <br />
-          I love colors, psychedelia, childlike wonder; and these are often
+          I love colors, psychedelia and childlike wonder; these are often
           reflected in the images I generate.
           <br />
           <br />
           I would like to express my gratitude (as well as issue an apology)
           for all the creative people whose works have been distilled into these
-          images that OpenAI mercilessly scraped and used to train their neural network.
-          The internet forces us to reflect on the nature of authorship and ownership
-          in a way that has never been possible before.
+          images that OpenAI scraped and used to train their neural network.
         </p>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
+        <Button className='gallery-modal-close-button'
+        
+        variant="secondary" onClick={handleClose}>
           Close
         </Button>
       </Modal.Footer>

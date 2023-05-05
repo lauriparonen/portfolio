@@ -74,6 +74,16 @@
   background-color: transparent;
 }
 
+.gallery-modal-close-button {
+  color: #cfb5b5;
+  background-color: #410f0f;
+}
+
+.gallery-modal-close-button:hover {
+  color: #cfb5b5;
+  background-color: #1a0e0e;
+}
+
 .gallery-desc {
   font-size: 1.05rem;
   max-width: 500px;
