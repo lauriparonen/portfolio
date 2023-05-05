@@ -45,6 +45,35 @@
   opacity: 1;
 }
 
+.gallery-modal-button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  
+  border: none;
+  color: #cfb5b5;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-modal-button:hover {
+  opacity: 0.5;
+  background-color: transparent;
+}
+
+.gallery-modal-button:focus,
+.gallery-modal-button:active {
+  outline: none;
+  background-color: transparent;
+}
+
+.gallery-modal-button:not(:disabled):not(.disabled):active {
+  background-color: transparent;
+}
+
 .gallery-desc {
   font-size: 1.05rem;
   max-width: 500px;
@@ -52,6 +81,19 @@
   margin-bottom: 0.5rem;
   justify-content: center;
   text-align: center;
+  color: #410f0f;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #410f0f;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* todo: add media query for mobile devices */
