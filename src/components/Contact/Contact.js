@@ -6,7 +6,9 @@ function Contact() {
         <div>
         <h1 className="page-title"
         >contact/links</h1>
-        <p>
+        <p className="contact-link">
+            lauriparonen0 [at] gmail [dot] com (general)
+            {/* <a href="https://www.linkedin.com/in/ " 
             <a href="mailto: lauriparonen0@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -14,8 +16,11 @@ function Contact() {
             >
             email (general)
             </a>
+            */}
         </p>
-        <p>
+        <p className="contact-link">
+            lamiatunes [at] gmail [dot] com (music)
+            {/* 
             <a href="mailto: lamiatunes@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,8 +28,11 @@ function Contact() {
             >
             email (music)
             </a>
+            */}
         </p>
-        <p>
+        <p className="contact-link"> 
+            foodofthegods9 [at] gmail [dot] com (philosophy)
+            {/* 
             <a href="mailto: foodofthegods9@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,6 +40,7 @@ function Contact() {
             >
             email (philosophy)
             </a>
+            */}
         </p>
 
         <p>

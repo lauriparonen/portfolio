@@ -25,7 +25,7 @@ return (
       <Modal.Body>
         <p className="gallery-desc">
           Here you can find some images I've prompted DALL·E 2 to generate.
-          <br />
+          <br /><br />
           The text description used to generate the images is displayed
           when you hover over the image; or on mobile, when you tap the image.
           <br />
