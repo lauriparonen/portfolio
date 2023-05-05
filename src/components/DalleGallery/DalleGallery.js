@@ -78,24 +78,9 @@ function DalleGallery() {
 
   return (
     <div className="gallery-header"
-    style={{marginTop:"-1.5rem"}}>
+    style={{marginTop:"1rem"}}>
     <h1 className="page-title"
     >gallery</h1>
-    {/* <p className="gallery-desc">}
-    <p className="gallery-desc">
-      Here you can find images I've prompted DALL·E 2 to generate.
-      <br />
-      The text description used to generate the images is displayed
-      when you hover over the image.
-      <br />
-      I love colors, psychedelia, childlike wonder; and these are often 
-      reflected in the images I generate.
-      <br />
-      I want to express my gratitude, as well as issue an apology, 
-      for the creative people whose works have been distilled into these 
-      images that OpenAI mercilessly scraped and used to train their neural network.
-    </p>
-    */}
     <GalleryModal />
     <div className="gallery-container">
       {imageArray.map((image) => (
