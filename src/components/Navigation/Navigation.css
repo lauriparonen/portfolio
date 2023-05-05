@@ -46,7 +46,7 @@
 }
 
 .nav-link, .nav-link2 {
-  margin: 1px;
+  margin-left: 16px;
   padding: 1px;
   background-color: none;
   /* color: inherit; */
