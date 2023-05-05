@@ -31,6 +31,7 @@ function DalleGallery() {
     style={{marginTop:"-1.5rem"}}>
     <h1 className="page-title"
     >gallery</h1>
+    {/* <p className="gallery-desc">}
     <p className="gallery-desc">
       Here you can find images I've prompted DALL·E 2 to generate.
       <br />
@@ -44,6 +45,7 @@ function DalleGallery() {
       for the creative people whose works have been distilled into these 
       images that OpenAI mercilessly scraped and used to train their neural network.
     </p>
+    */}
     <div className="gallery-container">
       {imageArray.map((image) => (
         <div className="gallery-item" key={image.src}>
