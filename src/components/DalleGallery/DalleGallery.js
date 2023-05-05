@@ -1,46 +1,34 @@
 import React from 'react';
 import './DalleGallery.css';
 
-function ImageGalleryItem({ imageName }) {
-  // extract date and prompt from image name
-  const [_, date, time, prompt] = imageName.match
-  (/DALL·E (\d{4}-\d{2}-\d{2}) (\d{2}\.\d{2}\.\d{2}) - (.+)/);
-  console.log("date:", date);
-  console.log("time:", time);
-  console.log("prompt:", prompt);
+function DalleGallery() {
 
-  return (
-    <div className="gallery-item">
-      <img src={require(`./images/${imageName}`).default} alt={prompt} />
-      <div className="gallery-overlay">
-        <p>{prompt}</p>
-      </div>
-    </div>
-  );
-}
+  const images = require.context('./images', false, /\.(png|jpe?g|svg)$/);
 
-function DalleGallery({ imageNames }) {
+  const imageArray = [];
 
-  if (!imageNames || imageNames.length === 0) {
-    return <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      height: "100vh",
-      fontSize: "2rem",
-    }
-    }
-    >under construction</div>;
-  }
+  images.keys().forEach((key) => {
+    const promptRegex = /DALL·E \d{4}-\d{2}-\d{2} \d{2}\.\d{2}\.\d{2} - (.+)/;
+    const promptMatch = promptRegex.exec(key);
 
+    const prompt = promptMatch ? promptMatch[1] : " ";
+    const src = images(key).default;
+
+    imageArray.push({ src, prompt });
+  });
+    
   return (
     <div className="gallery-container">
-      {imageNames && imageNames.map((imageName, index) => (
-        <ImageGalleryItem key={index} imageName={imageName} />
+      {imageArray.map((image) => (
+        <div className="gallery-item" key={image.src}>
+          <img src={image.src} alt={image.prompt} />
+          <div className="gallery-overlay">
+            <p>{image.prompt}</p>
+          </div>
+        </div>
       ))}
     </div>
   );
-}
+};
 
 export default DalleGallery;
