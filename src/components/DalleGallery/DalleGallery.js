@@ -77,8 +77,7 @@ function DalleGallery() {
   console.log(imageArray)
 
   return (
-    <div className="gallery-header"
-    style={{marginTop:"1rem"}}>
+    <div className="gallery-header">
     <h1 className="page-title"
     >gallery</h1>
     <GalleryModal />

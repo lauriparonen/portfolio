@@ -1,3 +1,10 @@
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
