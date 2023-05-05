@@ -21,7 +21,8 @@ return (
       </Modal.Header>
       <Modal.Body><DalleGallery /></Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
+        <Button className="gallery-modal-close-button"
+        variant="secondary" onClick={handleClose}>
           Close
         </Button>
       </Modal.Footer>
