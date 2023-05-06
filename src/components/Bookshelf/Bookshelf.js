@@ -107,15 +107,22 @@ function Bookshelf() {
             <p className="bookshelf-list-item-author">Nassim Nicholas Taleb</p>
             <p className="bookshelf-list-item-desc">
               This is a collection of five books on the nature of randomness and uncertainty: <i>Fooled by Randomness</i>, <i>The Black Swan</i>, <i>The Bed of Procrustes</i>, <i>Antifragile</i> and <i>Skin in the Game</i>. <br></br>
-              They are all worth reading; Taleb is a very entertaining writer, 
+              <br /> They are all worth reading; Taleb is a very entertaining writer, 
               and he does not fear to state his observations strongly (I find him 
               much more palatable when I only pay attention to his written work, 
               as opposed to his Twitter account). <br /><br /> 
               A particular favorite of mine is the collection of aphorisms that is 
-              <i> The Bed of Procrustes</i>. Aphoristic writing requires an ability
-              to condense a lot of meaning into a few words; it is a great way to practice
-              not only the art of writing but also that of thinking.
-
+              <i> The Bed of Procrustes</i>; my favorite one being the following: <br /><br /> 
+              <p>
+            <i>
+              <a href='https://www.goodreads.com/quotes/9193454-what-fools-call-wasting-time-is-most-often-the-best'
+                target={"_blank"}
+                className='home-links'
+                >
+              What fools call "wasting time" is most often the best investment. 
+              </a>
+            </i> 
+          </p>
             </p>
             </div>
 

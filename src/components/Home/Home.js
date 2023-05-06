@@ -115,16 +115,7 @@ function Home() {
           📿🌺🌳🍀🌸🕸️☄️🃏🖼️🔱
           <br />
           <br />
-          <p>
-            <i>
-              <a href='https://www.goodreads.com/quotes/9193454-what-fools-call-wasting-time-is-most-often-the-best'
-                target={"_blank"}
-                className='home-links'
-                >
-              what fools call "wasting time" is most often the best investment 
-              </a>
-            </i> 
-          </p>
+          
           </p>
       </div>
 
