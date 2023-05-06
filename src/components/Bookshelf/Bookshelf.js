@@ -276,7 +276,7 @@ function Bookshelf() {
                 </a></h3>
             <p className="bookshelf-list-item-author">Yoshida Kenkō</p>
             <p className="bookshelf-list-item-desc">
-               <br /><br />
+  
               This is a classic work of Japanese literature, written by a Buddhist monk
               in the 14th century. It is a collection of essays, dealing with
               Buddhist themes and truths, as well as the author's broader 
