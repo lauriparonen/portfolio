@@ -3,21 +3,16 @@ import { Link } from 'react-router-dom';
 import './Navigation.css';
 import { useLocation } from 'react-router-dom';
 
-function NavigationNoHome(props) {
-  /**
-   * This function renders the navigation bar for all pages.
-   * If the page is not the home page, it renders also a link to the home page.
-   */
+function NavigationHome(props) {
+
   const location = useLocation();
   return (
     <div className="navigation">
       <div className='nav-links'>
         <div className='nav-links-row1'>
-          {location.pathname !== "/" ? (
             <Link to="/" className="nav-link">
               home
             </Link>
-          ) : null}
           <Link to="/about" className="nav-link">
             about
           </Link>
@@ -48,7 +43,7 @@ function Navigation() {
   return (
     <div className="navigation-container">
       <h1 className="header"></h1>
-      <NavigationNoHome />
+      <NavigationHome />
     </div>
   );
 }
