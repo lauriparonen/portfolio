@@ -143,7 +143,7 @@ function Bookshelf() {
 
           <div className="bookshelf-list-item">
             <h3 className="bookshelf-list-item-title">
-              <a href="https://breedlove22.medium.com/the-number-zero-and-bitcoin-4c193336db5b2"
+              <a href="https://breedlove22.medium.com/the-number-zero-and-bitcoin-4c193336db5b"
               target="_blank">
                 The Number Zero and Bitcoin
                 </a></h3>
@@ -251,7 +251,7 @@ function Bookshelf() {
         <div className="bookshelf-list">
           <div className="bookshelf-list-item">
             <h3 className="bookshelf-list-item-title">
-              <a href=""
+              <a href="https://www.goodreads.com/book/show/551520.The_Wisdom_of_Insecurity"
               target="_blank">
                 The Wisdom of Insecurity: A Message for an Age of Anxiety
                 </a></h3>
@@ -266,7 +266,26 @@ function Bookshelf() {
               </p> 
               </div>
               </div>
+
+              <div className="bookshelf-list">
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://en.wikipedia.org/wiki/Tsurezuregusa"
+              target="_blank">
+                Tsurezuregusa (徒然草, <i>Essays in Idleness</i>)
+                </a></h3>
+            <p className="bookshelf-list-item-author">Yoshida Kenkō</p>
+            <p className="bookshelf-list-item-desc">
+               <br /><br />
+              This is a classic work of Japanese literature, written by a Buddhist monk
+              in the 14th century. It is a collection of essays, dealing with
+              Buddhist themes and truths, as well as the author's broader 
+              reflections on life.
+              </p> 
               </div>
+              </div>    
+        </div>
+
             
   );
 }
