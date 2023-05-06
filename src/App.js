@@ -14,6 +14,17 @@ import Metaphysics from './components/Metaphysics/Metaphysics';
 import DalleGallery from './components/DalleGallery/DalleGallery';
 
 function UserLocation() {
+
+  /**
+   * This function changes the page title depending on the current page.
+   * It is called in the App component.
+   * 
+   * It uses the useLocation hook from react-router-dom to get the current location.
+   * It then uses the useEffect hook to change the page title depending on the current location.
+   * 
+   * @returns null
+   */
+
   const location = useLocation();
 
   useEffect(() => {
@@ -29,6 +40,14 @@ function UserLocation() {
 }
 
 function App() {
+
+  /**
+   * This function renders the app.
+   * It uses the BrowserRouter component from react-router-dom to create the router.
+   * It uses the Routes and Route components from react-router-dom to create the routes.
+   * 
+   * @returns the app
+   */
 
   return (
     <Router basename={process.env.PUBLIC_URL}>

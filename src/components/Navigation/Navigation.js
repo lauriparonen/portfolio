@@ -1,18 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import { useLocation } from 'react-router-dom';
 
-function NavigationHome(props) {
+function Navigation() {
 
-  const location = useLocation();
+  /**
+   * This function renders the navigation bar.
+   * 
+   * @returns the navigation bar
+   */
+
   return (
-    <div className="navigation">
+    <div className="navigation-container">
+      <h1 className="header"></h1>
+      <div className="navigation">
       <div className='nav-links'>
         <div className='nav-links-row1'>
-            <Link to="/" className="nav-link">
-              home
-            </Link>
+          <Link to="/" className="nav-link">
+            home
+          </Link>
           <Link to="/about" className="nav-link">
             about
           </Link>
@@ -36,14 +42,6 @@ function NavigationHome(props) {
         </div>
         </div>
     </div>
-  );
-}
-function Navigation() {
-
-  return (
-    <div className="navigation-container">
-      <h1 className="header"></h1>
-      <NavigationHome />
     </div>
   );
 }

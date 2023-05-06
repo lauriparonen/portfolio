@@ -4,16 +4,25 @@ import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 
 function GalleryModal () {
+  
+  /**
+   * This function renders the gallery modal.
+   * It uses the useState hook to create a state variable called show,
+   * which is used to determine whether the modal is shown or not.
+   * 
+   * @returns the gallery modal
+   */
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
 return (
+
   <>
     <Button variant="primary" onClick={handleShow}
             className="gallery-modal-button"
-
     >
       what's this?
     </Button>
@@ -56,6 +65,8 @@ function DalleGallery() {
    * This function renders the gallery page.
    * It uses the require.context function to import all images from the images folder.
    * The images are then mapped to the imageArray array, which is then rendered.
+   * 
+   * @returns the gallery page
    */
 
   // Import all images from the images folder 

@@ -1,9 +1,16 @@
 import React from "react";
 import "./About.css";
 import Lauri from "./Lauri.jpg";
-import laurelwreath from "./laurelwreath.jpg";
 
 function About () {
+
+    /**
+     * This function renders the about page.
+     * The styles are reused from Bookshelf.css.
+     * 
+     * @returns the about page
+     */
+    
     return (
         <div className="bookshelf-container"> {/* reusing styles from Bookshelf.css */}
         <h1 className="page-title">about</h1>

@@ -58,6 +58,12 @@ const images = [
 shuffleArray(images);
 
 function Header() {
+  /**
+   * This function renders the header carousel.
+   * It uses the react-bootstrap Carousel component.
+   * 
+   * @returns the header carousel
+   */
   return (
     <Carousel defaultInterval={8000} className="header-carousel">
       {images.map((image, index) => (

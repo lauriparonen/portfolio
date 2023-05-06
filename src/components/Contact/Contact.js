@@ -2,6 +2,14 @@ import React from "react";
 import "./Contact.css";
 
 function Contact() {
+ 
+    /**
+     * This function renders the contact page.
+     * The styles are imported from Contact.css.
+     * 
+     * @returns the contact page
+     */
+
     return (
         <div>
         <h1 className="page-title"
@@ -9,7 +17,7 @@ function Contact() {
         <p className="contact-link">
             lauriparonen0 [at] gmail [dot] com (general)
             {/* <a href="https://www.linkedin.com/in/ " 
-            <a href="mailto: lauriparonen0@gmail.com"
+            <a href="mailto: lauriparonen0@gmail.com" 
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"

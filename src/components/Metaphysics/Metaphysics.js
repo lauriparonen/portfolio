@@ -2,6 +2,14 @@ import React from "react";
 import "./Metaphysics.css";
 
 function Metaphysics() {
+    
+    /**
+     * This function renders the metaphysics page.
+     * The styles are reused from Bookshelf.css.
+     * 
+     * @returns the metaphysics page
+     */
+
     return (
         <div className="bookshelf-container"> {/* reusing styles from Bookshelf.css */}
         <h1 className="page-title">metaphysics</h1>

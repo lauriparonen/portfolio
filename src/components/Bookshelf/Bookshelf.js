@@ -1,9 +1,14 @@
-// this component will display my favorite books
-//
-// Path: src\components\Bookshelf\Bookshelf.js
-
 import React from "react";
 import "./Bookshelf.css";
+
+/**
+ * This component renders the bookshelf page.
+ * Each book is rendered as a div with the title, author and description.
+ * The title is either a link to the book online, or some other
+ * relevant link.
+ * 
+ * @returns a component that displays my favorite books
+ */
 
 function Bookshelf() {
   return (

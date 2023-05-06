@@ -1,6 +1,5 @@
 import './Home.css';
 import Carousel from 'react-bootstrap/Carousel';
-import Navigation from '../Navigation/Navigation';
 
 import laurel1 from './dallelaurels/laurel1.png';
 import laurel2 from './dallelaurels/laurel2.png';
@@ -12,19 +11,36 @@ import laurel7 from './dallelaurels/laurel7.png';
 import laurel8 from './dallelaurels/laurel8.png';
 
 function shuffleArray(array) {
+
+  /**
+   * This function shuffles the image array.
+   * 
+   * @param {array} array - the array to be shuffled
+   * @returns null
+   */
+
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
+// Create an array called images that contains all the imported images
 const images = [
   laurel1, laurel2, laurel3, laurel4, laurel5, laurel6, laurel7, laurel8 
 ];
  
+// Shuffle the images
 shuffleArray(images);
 
 function laurelCarousel () {
+
+  /**
+   * This function renders the laurel carousel displayed on the home page.
+   * It uses the react-bootstrap Carousel component.
+   * 
+   * @returns the laurel carousel
+   */
   return (
     <div className="laurel-container">
     <Carousel className="laurel-carousel" defaultInterval={8000} fade={"0.3s"}>
@@ -66,6 +82,13 @@ function laurelCarousel () {
 }
 
 function Home() {
+
+  /**
+   * This function renders the home page.
+   * 
+   * @returns the home page
+   */
+
   return (
     <div className='home-container'>
       <h1 className="bookshelf-container">lauri paronen</h1>

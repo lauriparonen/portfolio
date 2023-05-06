@@ -2,6 +2,14 @@ import React from 'react';
 import './Music.css';
 
 function Music() {
+
+  /**
+   * This function renders the music page.
+   * The styles are imported from Music.css.
+   * 
+   * @returns the music page
+   */
+  
   return (
     <div className="music-container">
       <h1 className='music-title'>music</h1>
