@@ -289,7 +289,30 @@ function Bookshelf() {
               </p> 
               </div>
               </div>    
+
+              <div className="bookshelf-list">
+          <div className="bookshelf-list-item">
+            <h3 className="bookshelf-list-item-title">
+              <a href="https://www.goodreads.com/book/show/60677813-they-had-no-deepness-of-earth"
+              target="_blank">
+                They Had No Deepness of Earth
+                </a></h3>
+            <p className="bookshelf-list-item-author">Zero H.P. Lovecraft</p>
+            <p className="bookshelf-list-item-desc">
+              This is a collection of horror stories by Zero H.P. Lovecraft,
+              a contemporary horrorist. It's an interesting read because
+              it deals with technological things relevant to the world 
+              today.
+              I'm not much of a horror fan, but I think this is a great
+              work; I think horror and humor are two sides of the same coin,
+              and this book definitely has a sense of humor to it.
+              </p>
+              </div>
+              </div>
+
         </div>
+
+
 
             
   );

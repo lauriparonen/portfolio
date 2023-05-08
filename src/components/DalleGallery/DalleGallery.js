@@ -2,6 +2,45 @@ import React from 'react';
 import './DalleGallery.css';import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { useEffect } from 'react';
+
+
+
+function BackToTop({ showButton }) {
+    /**
+     * This function renders the back to top button.
+     * 
+     * @returns the back to top button
+     */
+    const [visible, setVisible] = useState(false);
+  
+    const handleClick = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  
+    const handleScroll = () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  
+      if (scrollTop > 200) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    };
+  
+    return (
+      <>
+        {showButton && (
+          <button
+            className={`back-to-top ${visible ? "visible" : ""}`}
+            onClick={handleClick}
+          >
+            <i className="fas fa-arrow-up"></i>
+          </button>
+        )}
+      </>
+    );
+}
 
 function GalleryModal () {
   
@@ -87,6 +126,27 @@ function DalleGallery() {
   });
   console.log(imageArray)
 
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const clientHeight = document.documentElement.clientHeight || window.innerHeight;
+
+      if (scrollTop > clientHeight) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="gallery-header">
     <h1 className="page-title"
@@ -102,6 +162,7 @@ function DalleGallery() {
         </div>
       ))}
     </div>
+    <BackToTop showButton={showButton}/>
     </div>
   );
 };
