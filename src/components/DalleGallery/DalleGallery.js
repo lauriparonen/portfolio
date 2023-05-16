@@ -1,8 +1,12 @@
 import React from 'react';
-import './DalleGallery.css';import { Modal } from 'react-bootstrap';
+import './DalleGallery.css';
+import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { useEffect } from 'react';
+// import arrow up icon from fontawesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import arrowUp  from './arrowUp.svg';
 
 
 
@@ -13,7 +17,7 @@ function BackToTop({ showButton }) {
      * @returns the back to top button
      */
     const [visible, setVisible] = useState(false);
-  
+
     const handleClick = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
@@ -21,27 +25,32 @@ function BackToTop({ showButton }) {
     const handleScroll = () => {
       const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   
-      if (scrollTop > 200) {
+      if (scrollTop > 500) {
         setVisible(true);
       } else {
         setVisible(false);
       }
     };
   
+    useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+  
     return (
       <>
         {showButton && (
-          <button
+          <Button
             className={`back-to-top ${visible ? "visible" : ""}`}
             onClick={handleClick}
           >
-            <i className="fas fa-arrow-up"></i>
-          </button>
+            <img src={arrowUp} className="arrow-up"/>
+            
+          </Button>
         )}
       </>
     );
-}
-
+  }
 function GalleryModal () {
   
   /**
@@ -124,7 +133,6 @@ function DalleGallery() {
 
     imageArray.push({ src, prompt });
   });
-  console.log(imageArray)
 
   const [showButton, setShowButton] = useState(false);
 
