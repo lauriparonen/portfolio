@@ -4,8 +4,6 @@ import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { useEffect } from 'react';
-// import arrow up icon from fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import arrowUp  from './arrowUp.svg';
 
 
@@ -25,7 +23,7 @@ function BackToTop({ showButton }) {
     const handleScroll = () => {
       const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
   
-      if (scrollTop > 500) {
+      if (scrollTop > 2500) {
         setVisible(true);
       } else {
         setVisible(false);
