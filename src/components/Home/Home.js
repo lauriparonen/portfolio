@@ -99,7 +99,7 @@ function Home() {
       <div className="home-text">
         <p>
           <br />
-          I'm a 22-year-old student of computer science currently based in Tampere, Finland.
+          I'm a 23-year-old student of computer science currently based in Tampere, Finland.
           <br />
           <br />
           I enjoy all manner of creative pursuits, such as writing, music, art, 
