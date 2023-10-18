@@ -61,19 +61,12 @@ function About () {
             <br /><br />
             <ul className="projects-list">
                 <li className="projects-list-item">
-
                  <a className="list"
-                    href="https://github.com/lauriparonen/GIndexScraper"
+                    href="https://www.shadertoy.com/view/mdcfDS"
                     target="_blank"
                     style={{color: "inherit"}}
-                    ><i>GIndexScraper</i>, a Node.js script which scrapes the price of
-                    Gambina
-                </a> (a Finnish alcoholic beverage and an <a className="list"
-                    target="_blank"
-                    style={{color: "inherit"}}
-                    href="https://www.gambina.fi/"> 
-                    an academic elixir</a>)
-                    from the website of the Finnish alcohol monopoly Alko
+                    >a fractal audio visualizer
+                </a> made with Shadertoy / WebGL
                     </li>
                     <li className="projects-list-item">
                     <a className="list"
@@ -86,7 +79,7 @@ function About () {
                                       target="_blank"
                                       style={{color:"inherit"}}>
                             Naval Ravikant</a>, without subjecting yourself to the informational cacophony of 
-                        the Twitter feed
+                        the Twitter (𝕏) feed (it'll always be Twitter for me)
                     </li>
                     <li className="projects-list-item">
                     <a className="list"
