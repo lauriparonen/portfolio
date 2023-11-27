@@ -57,9 +57,43 @@ function About () {
             </a>.
             
             <br />
+            <br />
+
+            <div className="p5-container"
+            style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}
+
+            >
+            <iframe className="p5-iframe"
+                src="https://editor.p5js.org/lauriparonen/full/czMhcbE9e" 
+                title="recursive-squares-p5"
+                //style={{width: "100%", height: "100%", border: "none"}}
+                style={{
+                    width: "400px",
+                    height: "442px", // 400px + 42px (the height of the iframe's title bar)
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    overflow: "hidden",
+                    frameborder: "0",
+                    border: "0",
+                    margin: "0",
+                    padding: "0",
+                    position: "relative"
+                }}
+                ></iframe>
+            </div>
+            <br />
+
             Some of my other projects include:
             <br /><br />
             <ul className="projects-list">
+                <li className="projects-list-item">
+                    <a className="list"
+                    href="https://editor.p5js.org/lauriparonen/full/czMhcbE9e"
+                    target="_blank"
+                    style={{color: "inherit"}}
+                    >the recursive spiral square</a> generative artwork displayed above, made with p5.js
+                    </li>
                 <li className="projects-list-item">
                  <a className="list"
                     href="https://www.shadertoy.com/view/mdcfDS"
