@@ -52,7 +52,7 @@ function Contact() {
         </p>
 
         <p>
-            <a href="https://www.linkedin.com/in/ "
+            <a href="www.linkedin.com/in/lauri-paronen-4b0651291"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
